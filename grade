@@ -1,0 +1,46 @@
+""" def login(password):
+    #if statement evaluates to true we go to next line
+    if password == "secret":
+        print("log in")
+    else:
+        print ("incorrect")
+
+x = input("what the password")
+login(x)
+
+
+def grade(score):
+    if score >=92:
+        print("A")
+    elif score >= 82:
+        print("C")
+    elif score >=72:
+        print("C")
+    else:
+        print("F")
+x = int(input("what da score"))
+grade(x)
+
+""" def gamble(age, id):
+    if age >= 21:
+        if = id:
+            print ("Gamble away")
+        else:
+            print("You need Id verification")
+    else:
+        print("you are too young")
+ """
+
+def gamble(age, id):
+    if age >= 21 and id == True:
+        print("hae fun")
+    elif age >= 21 and id == False:
+        print("You need Id verification")
+    else:
+        print("you are too young")
+raining = False
+if not raining == True:
+    print("go for a walk")
+if raining == False:
+    print("go outside") 
+ """
