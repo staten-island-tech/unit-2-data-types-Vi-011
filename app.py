@@ -30,6 +30,19 @@ for money in moneys:
 
  """
 
-x = 3
-y = float(3)
-print(x,y)
+""" 
+temp = 3
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold')
+ """
+
+
+
+
+sentence = input("Please enter a sentence: ")
+
+def count_words (Hello, may I have a sandwhich)
