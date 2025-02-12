@@ -56,8 +56,26 @@ print(madlib)
 
  """
 
+""" 
 day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
     print("correct")
 else:
     print("incorrect")
+
+ """
+
+""" temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+number = 34
+if number %2 == 0:
+    print("even")
+else:
+    print("odd")
+
