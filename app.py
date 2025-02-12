@@ -32,12 +32,23 @@ for money in moneys
 
 
 
-
+""" 
 sentence = input("Please enter a sentence: ").strip() 
 
 def count_words(sentence):
     words = sentence.split() 
     return len(words)
-
 word_count = count_words(sentence)
 print(f"The number of words in the sentence is: {word_count}")
+ """
+
+verb1 = input("run")
+verb2 = input("sled")
+noun = input("moon")
+number = input("14")
+celebrity = input("Lady Gaga")
+
+madlib = f"One day, {"Lady Gaga"} decided to {"run"} and {"sled"} through the snowy park. They looked up and saw a {"moon"} that shined very brightly. {"Lady Gaga"} counted to {14} before heading to the moon."
+
+print(madlib)
+
