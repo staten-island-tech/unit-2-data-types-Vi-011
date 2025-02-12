@@ -73,9 +73,12 @@ elif temp == 68:
 else:
     print('cold') """
 
+""" 
 number = 34
 if number %2 == 0:
     print("even")
 else:
     print("odd")
+
+ """
 
