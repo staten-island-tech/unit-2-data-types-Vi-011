@@ -42,13 +42,22 @@ word_count = count_words(sentence)
 print(f"The number of words in the sentence is: {word_count}")
  """
 
-verb1 = input("run")
-verb2 = input("sled")
-noun = input("moon")
-number = input("14")
-celebrity = input("Lady Gaga")
 
-madlib = f"One day, {"Lady Gaga"} decided to {"run"} and {"sled"} through the snowy park. They looked up and saw a {"moon"} that shined very brightly. {"Lady Gaga"} counted to {14} before heading to the moon."
+""" 
+verb1 = input("enter verb:")
+verb2 = input("enter verb2:")
+noun = input("enter noun:")
+number = input("enter number:")
+celebrity = input("enter celebrity:")
+
+madlib = f"One day, {celebrity} decided to {verb1} and {verb2} through the snowy park. They looked up and saw a {noun} that shined very brightly. {celebrity} counted to {number} before heading to the moon."
 
 print(madlib)
 
+ """
+
+day_of_week = input("what day is it? ")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect")
