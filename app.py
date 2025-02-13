@@ -82,3 +82,22 @@ else:
 
  """
 
+
+def calculate_tip(bill, rating):
+ 
+    tip_percentages = {
+        "bad": 0,
+        "okay": 0.15,
+        "good": 0.20,
+        "great": 0.25
+    }
+    if rating not in tip_percentages:
+        return "Invalid rating. Please choose from 'bad', 'okay', 'good', or 'great'."
+    
+    tip_percentage = tip_percentages[rating]
+    
+    tip = bill * tip_percentage
+    
+    return f"The tip for a {rating} service on a ${bill:.2f} bill is: ${tip:.2f}"
+
+
