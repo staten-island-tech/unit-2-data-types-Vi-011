@@ -82,21 +82,20 @@ else:
 
  """
 
+bill = float(input("bill"))
+service = input("how was the service? ")
+if service == ("bad"):
+    print('0')
+elif service == ("okay"): 
+    print('0.15')
+elif service == ("good"):
+    print('0.20')
+elif service == ("great"):
+    print("0.25")
 
+   
 
-def get_tip_percentage(rating): 
-    tip_percentages = {
-        "bad": 0,
-        "okay": 15,
-        "good" : 20,
-        "great": 25
-    }
-    if rating not in tip_percentages:
-        return "Invalid rating. Please choose from 'bad', 'okay', 'good', or 'great'."
     
-    return f"The tip percentage for '{rating}' service is: {tip_percentages[rating]}%"
-
-
 
 
     
