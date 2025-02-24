@@ -83,18 +83,20 @@ else:
  """
 
 bill = float(input("bill"))
-service = input("how was the service? ")
+service = input("How was the service? (bad, okay, good, great): ").lower()
+tip_percentage = 0
 if service == ("bad"):
-    print('0')
+      tip_percentage = 0.00
 elif service == ("okay"): 
-    print('0.15')
+      tip_percentage = 0.15
 elif service == ("good"):
-    print('0.20')
+      tip_percentage = 0.20
 elif service == ("great"):
-    print("0.25")
-
-   
-
+      tip_percentage = 0.25
+tip = bill * tip_percentage
+total = bill + tip
+print(f"Tip amount: ${tip:.2f}")
+print(f"Total bill (including tip): ${total:.2f}")
     
 
 
