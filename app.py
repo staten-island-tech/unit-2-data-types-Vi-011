@@ -29,9 +29,6 @@ for money in moneys
     print(total)
  """
 
-
-
-
 """ 
 sentence = input("Please enter a sentence: ").strip() 
 
@@ -41,7 +38,6 @@ def count_words(sentence):
 word_count = count_words(sentence)
 print(f"The number of words in the sentence is: {word_count}")
  """
-
 
 """ 
 verb1 = input("enter verb:")
@@ -82,6 +78,7 @@ else:
 
  """
 
+""" 
 bill = float(input("bill"))
 service = input("How was the service? (bad, okay, good, great): ").lower()
 tip_percentage = 0
@@ -98,8 +95,9 @@ total = bill + tip
 print(f"Tip amount: ${tip:.2f}")
 print(f"Total bill (including tip): ${total:.2f}")
     
+ """
 
+number = float(input("number"))
 
-    
 
 
