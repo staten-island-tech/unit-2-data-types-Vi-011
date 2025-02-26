@@ -107,4 +107,21 @@ for i in range(1, int(number) + 1):
         print("Factors of", int(number), "are:", factors) """
 
 
-number = float(input("number 1"))
+""" number = float(input("number 1")) """
+
+T = 0
+S = 0
+def add (x,y):
+    print (x+y)
+language = input(str("input text"))
+for l in language:
+    if l == "t" or l == "T":
+        add(1, l)
+    if l == "S" or l == "s":
+        add(1, l)
+print(l)
+
+
+
+
+
