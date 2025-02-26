@@ -107,3 +107,4 @@ for i in range(1, int(number) + 1):
         print("Factors of", int(number), "are:", factors) """
 
 
+number = float(input("number 1"))
