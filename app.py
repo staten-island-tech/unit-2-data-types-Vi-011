@@ -107,9 +107,8 @@ for i in range(1, int(number) + 1):
         print("Factors of", int(number), "are:", factors) """
 
 
-""" number = float(input("number 1")) """
 
-T = 0
+""" T = 0
 S = 0
 def add (x,y):
     print (x+y)
@@ -120,8 +119,22 @@ for l in language:
     if l == "S" or l == "s":
         add(1, l)
 print(l)
+ """
 
 
+number1 = float(input("number 1")) 
+number2 = float(input("insert number 2"))
+factors1 = []
+factors2 = []
+for i in range(1, int(number1) + 1):
+    number1 % i == 0
+factors1.append(i)
+print("Factors of", int(number1), "are:", factors1) 
 
-
+for i in range(1, int(number2) + 1):
+    if number2 % i == 0:
+        factors2.append(i)
+print("Factors of", int(number2), "are:", factors2)
+#list out factors and find common ones. 
+#through common factors, find the biggest number
 
