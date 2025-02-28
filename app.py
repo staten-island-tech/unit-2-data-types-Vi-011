@@ -122,19 +122,30 @@ print(l)
  """
 
 
-number1 = float(input("number 1")) 
-number2 = float(input("insert number 2"))
+number1 = int(input("number 1")) 
+number2 = int(input("insert number 2"))
 factors1 = []
 factors2 = []
 for i in range(1, int(number1) + 1):
-    number1 % i == 0
-factors1.append(i)
+    if number1 % i == 0:
+        factors1.append(i)
 print("Factors of", int(number1), "are:", factors1) 
 
 for i in range(1, int(number2) + 1):
     if number2 % i == 0:
         factors2.append(i)
 print("Factors of", int(number2), "are:", factors2)
+
+list = []
+
+for x in factors1:
+    if x in factors2:
+        list.append (x)
+        
+
 #list out factors and find common ones. 
-#through common factors, find the biggest number
+#through common factors, find the smallest number
+
+
+
 
