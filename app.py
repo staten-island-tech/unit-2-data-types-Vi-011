@@ -142,6 +142,7 @@ for x in factors1:
     if x in factors2:
         list.append (x)
         
+        
 
 #list out factors and find common ones. 
 #through common factors, find the smallest number
