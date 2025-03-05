@@ -141,6 +141,8 @@ list = []
 for x in factors1:
     if x in factors2:
         list.append (x)
+
+
         
         
 
