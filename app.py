@@ -121,7 +121,7 @@ for l in language:
 print(l)
  """
 
-
+""" 
 number1 = int(input("number 1")) 
 number2 = int(input("insert number 2"))
 factors1 = []
@@ -142,15 +142,17 @@ for x in factors1:
     if x in factors2:
         list.append (x)
 
-print(list)
+largest_number = max(list)
+print(largest_number)
 
 
+ """
 
+number1 = int(input("number 1")) 
+number2 = int(input("insert number 2"))
+GCF = 0
 
-
-#list out factors and find common ones. 
-#through common factors, find the smallest number
-
-
-
-
+for i in range(1,number1):
+    if number1 % i ==0  and number2 % i == 0:
+        GCF = i
+print(GCF)
